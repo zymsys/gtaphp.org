@@ -1,0 +1,130 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	text-transform: none;
+}
+
+/*
+.reveal {
+	background-image: url("../imgs/gtaphp.jpg");
+	background-size: 100%;
+	background-position: 0 -300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+*/
+
+.reveal .slides {
+	text-align: left;
+}
+
+.reveal .slides > section {
+	left: -50%;
+	top: -70%;
+}
+
+.3imgs {
+	width: 100%;
+
+}
+
+h1.afterthought 
+, h2.afterthought 
+, h3.afterthought 
+, h4.afterthought 
+, h5.afterthought 
+, h6.afterthought 
+{
+	margin-top: 40px;
+}
+
+span.code {
+  background-color: lightgrey;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  color: #000;
+  display: inline-block;
+  font-family: "Lucida Console",Courier,monospace;
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+span.code a {
+	color: #385f93;
+}
+
+span.emphasize, 
+i.emphasize,
+li.emphasize {
+	font-style: italic;
+	color: #E1F4C1;
+}
+
+.reveal img.imgright {
+	float: right;
+	margin: 0 0 5px 15px;
+}
+
+.reveal .halfleft {
+	width: 470px;
+	float: left;
+}
+
+.reveal .halfright {
+	width: 470px;
+	float: right;
+}
+
+.reveal .small24 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+
+.colourclass {
+	width: 300px;
+	text-align: right;
+	display: inline-block;
+}
+span.bluebadge {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: 3px solid grey;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+span.redbadge {
+	background-color: red;
+	color: white;
+	padding: 10px;
+	border: 3px solid grey;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+span.whitebadge {
+	background-color: white;
+	color: grey;
+	padding: 10px;
+	border: 3px solid grey;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+.reveal .small {
+	font-size: 20px;
+}
+
+
+
+
+

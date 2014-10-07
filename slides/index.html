@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>GTA PHP MeetUp - Welcome</title>
+
+		<meta name="description" content="Slides for welcome and intermission">
+		<meta name="author" content="Alfred Ayache">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../bower_components/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="../bower_components/reveal.js/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../bower_components/reveal.js/lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="css/gtaphp.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="../bower_components/reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h3>Welcome to the GTA PHP MeetUp</h3>
+					<h1>PHP Test Automation</h1>
+
+					<h4>Presented by -- Gregorio Lonato --</h4>
+				</section>
+
+				<section>
+					<h3>Make and Wear a</h3>
+					<h1>NAME BADGE</h1><br>
+
+					<img src="imgs/peter300.gif" class="halfleft" style="width: 450px;"/>
+					<div class="halfright" style="margin-left: 20px;">
+						<h3><span class="colourclass">Looking for work?</span> <span class="bluebadge">BLUE</span></h3>
+
+						<h3><span class="colourclass">Looking to hire?</span> <span class="redbadge">RED</span></h3>
+
+						<h3><span class="colourclass">Just a tourist?</span> <span class="whitebadge">WHITE</span></h3>
+					</div>
+
+				</section>
+
+
+				<section>
+					<h4>Upcoming Events</h4>
+
+					<h1>True North PHP</h1>
+					<div  style="text-align: right;">
+						<img src="imgs/wolfhomepage940b.jpg" width="70%"/>
+					</div>
+					
+					<p>Nov 6-8, 2014<br>
+					truenorthphp.ca<br>
+					@TrueNorthPHP</p>
+
+				</section>
+
+
+				<section>
+					<h4>Upcoming Events</h4>
+
+					<img src="imgs/wordcamp-toronto-2014.png" style="float: right;" />
+					<h2>WordCamp Toronto 2014</h2>
+					<p>Sat Nov 15, 2014 - Sun Nov 16, 2014<br>
+					Humber College, Lakeshore<br><br>
+					http://2014.toronto.wordcamp.org/</p>
+
+					<p class="small">$30 for a whole weekend of WordPress goodness,<br>
+					including food and refreshments.</p>
+
+				</section>
+
+				<section>
+					<h4>Thanks to our hosts:</h4>
+
+					<h1>Jobspring Partners Toronto</h1>
+					<p>@jobspringCanada</p>
+					<img src="imgs/jslogo.png" width="300px" />
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="../bower_components/reveal.js/lib/js/head.min.js"></script>
+		<script src="../bower_components/reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			$('section:not([data-background])').attr('data-background', 'imgs/gtaphp.jpg');
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				loop: true,
+				progress: true,
+				history: true,
+				center: true,
+				autoSlide: 15000,
+				slideNumber: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

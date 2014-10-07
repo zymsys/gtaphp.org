@@ -1,0 +1,23 @@
+{
+  "name": "gtaphp.org",
+  "version": "1.0.0",
+  "authors": [
+    "Vic Metcalfe <vic@acm.org>",
+    "Alfred Ayache <alfred@notoriouswebmaster.com>"
+  ],
+  "description": "GTA-PHP Meetup Group Web Site",
+  "license": "MIT",
+  "homepage": "http://gtaphp.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~2.6.2",
+    "jquery": "2.1.1"
+  }
+}
